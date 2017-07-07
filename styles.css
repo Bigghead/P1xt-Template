@@ -1,15 +1,45 @@
 body{
     width: 100%;
+    color: white;
+}
+
+nav{
+    color: grey;
+    padding: 0 15px;
+}
+
+ul > li > a{
+    color: grey;
+}
+
+.button-collapse{
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: lightgray;
+    transform: scale(0.75);
+}
+
+.button-collapse:hover{
+    background-color: grey;
 }
 
 #first-page{
     width: 100%;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 64px);
     overflow: hidden;
     position: relative;
 }
 
 video{
     width: inherit;
+    height: inherit;
     object-fit: cover;
+}
+
+.greeting-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px black;
 }
