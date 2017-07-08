@@ -43,3 +43,46 @@ video{
     transform: translate(-50%, -50%);
     text-shadow: 2px 2px black;
 }
+
+#second-page{
+    height: 80vh;
+    color: grey;
+    /*position: relative;*/
+}
+
+
+
+.parallax-div{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    margin-left: 10%;
+}
+
+/*img{
+    position: absolute;
+}*/
+
+.image-top{
+    position: absolute;
+    /*top: 10%;*/
+    
+    z-index: 1;
+}
+
+.image-middle{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    display: block;
+    z-index: 3;
+    
+}
+
+.image-bottom{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 2;
+}
+

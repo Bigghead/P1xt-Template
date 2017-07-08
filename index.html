@@ -14,9 +14,6 @@
 
 <body>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-
     <nav class='grey lighten-5'>
         <div class="nav-wrapper">
             <a href="#" class="brand-logo grey-text">Logo</a>
@@ -36,6 +33,35 @@
             <h2>Welcome To The Party</h2>
         </div>
     </div>
+
+
+    <div id="second-page" class="valign-wrapper">
+        <div class="row">
+            <div class="col l7 m12">
+                <h3>AN EVOLUTION OF A REVOLUTION</h3>
+                <p>Some cool hipster paragraph texts about hipster things</p>
+            </div>
+
+            <div class="col l5 m12">
+                <div class="parallax-div">
+                     <img  class='image-top' style="height: 200px;"src="https://static.pexels.com/photos/69372/pexels-photo-69372.jpeg" alt="">
+                    
+                        <img    class='image-middle' style="height: 250px;"src="https://static.pexels.com/photos/69372/pexels-photo-69372.jpeg" alt="">
+                    
+                        <img  data-enllax-ratio=".3" data-enllax-type="foreground"class="image-bottom" style="height: 100px; "src="https://static.pexels.com/photos/69372/pexels-photo-69372.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="./JS/stellar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <script>
+        $(window).enllax();
+    </script>
 
 </body>
 
