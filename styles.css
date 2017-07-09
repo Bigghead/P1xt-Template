@@ -63,9 +63,9 @@ ul > li > a{
 
 }
 
-img{
+/*img{
     position: absolute;
-}
+}*/
 
 image-top{
     position: absolute;
@@ -112,3 +112,35 @@ image-top{
 .paragraph-text{
     font-size: 18px;
 }
+
+
+#fourth-page{
+    height: 100vh;
+}
+
+.image-grid{
+    columns: 2;
+}
+
+.image-container{
+    overflow: hidden;
+}
+
+.gallery-image{
+    /*max-height: 100%;*/
+    max-width: 100%;
+    transition: 6s ease;
+    /*position: relative;*/
+}
+
+.gallery-image:hover{
+    /*max-height: 100%;*/
+    /*max-width: 100%;*/
+    /*position: relative;*/
+      -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
