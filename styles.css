@@ -1,9 +1,18 @@
+
 body{
     width: 100%;
+    margin: 0;
+        padding: 0;
     color: white;
     font-family: Verdana, Geneva, sans-serif;
 
 }
+
+.body-container{
+    /*font-size: 0;*/
+    /*line-height: 0px;*/
+}
+
 
 nav{
     color: grey;
@@ -115,11 +124,25 @@ image-top{
 
 
 #fourth-page{
-    height: 100vh;
+    /*height: 150vh;*/
+    background-color: rgba(0, 0 , 0, .85);
+    
+    overflow: hidden;
+    /*line-height: 0px;*/
+    font-size: 0;
 }
+
+/*@media(max-width: 500px){
+    #fourth-page{
+        height: 80vh;
+        overflow: hidden;
+    }
+}*/
 
 .image-grid{
     columns: 2;
+    /*max-height: inherit;*/
+    /*white-space: nowrap;*/
 }
 
 .image-container{
@@ -128,19 +151,22 @@ image-top{
 
 .gallery-image{
     /*max-height: 100%;*/
-    max-width: 100%;
+    /*height: 75%;*/
+    /*display: block;*/
+    /*width: 50vw;
+    height: 40vw;*/
     transition: 6s ease;
+    -webkit-backface-visibility: hidden;
+
     /*position: relative;*/
 }
 
 .gallery-image:hover{
-    /*max-height: 100%;*/
-    /*max-width: 100%;*/
-    /*position: relative;*/
       -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
+
 
